@@ -21,4 +21,9 @@ I propose the following naming format. For test cases for problem 4 of assignmen
 - input files: test_case_hw3_pr4_tg1.txt
 - output files: output_hw3_pr4_tg1.txt
 
+# Directory structure
+Please put your test cases into the assignment-# folder located in the root.
 
+# Documentation
+If you submit code (makefiles, shell scripts, other auxiliary code that is helpful to the assignments but does not give away the solution),
+please include your name, a description of your code, and instructions on how to run it in the header of the file.
