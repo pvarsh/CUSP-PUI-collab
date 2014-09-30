@@ -21,8 +21,8 @@ zip:
 
 download:
 	wget -N --output-document=problem1-sample.py http://vgc.poly.edu/files/gx5003-fall2014/week4/src/problem1.py
-	wget http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem1.py
+	wget -N http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem1.py
 	wget -N --output-document=problem2-sample.py http://vgc.poly.edu/files/gx5003-fall2014/week4/src/problem2.py
-	wget http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem2.py
+	wget -N http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem2.py
 	wget -N --output-document=problem3-sample.py http://vgc.poly.edu/files/gx5003-fall2014/week4/src/problem3.py
-	wget http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem3.py
+	wget -N http://vgc.poly.edu/files//gx5003-fall2014/week4/src/test_problem3.py
