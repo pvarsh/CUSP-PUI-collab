@@ -30,11 +30,19 @@ def generateSampleInput(inputSize,isSorted=False):
 
 functionsToTest = [solveOnlyLists, solveDict, solveSorted]
 data = generateSampleInput(10)
+
 correct_solution = solveWithSet(data)
 for func in functionsToTest:
     print 'Testing %s()' % func.__name__
-    this_solution = func(data)
+    if func.__name__ == "solveSorted":
+      this_solution = func(sorted(data))
+    else: 
+      this_solution = func(data)
+
     if set(correct_solution) == set(this_solution):
       print "OK"
     else:
       print "ERROR, %s() does not do it's job correctly!" % func.__name__
+      print correct_solution
+      print "wrong solution:"
+      print this_solution
