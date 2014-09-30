@@ -6,6 +6,9 @@
 # make zip      # prepares a zip file of all your programs
 # make download # download sample code and test files again
 #
+# by brigitte.jellinek@nyu.edu
+#
+
 # your netid is used to create the zip file
 #
 NETID = jb007
