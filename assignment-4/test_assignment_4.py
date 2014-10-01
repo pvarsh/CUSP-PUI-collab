@@ -87,8 +87,12 @@ def test_searchGreaterBinSearch():
   assert 1 == searchGreaterBinSearch( [-1,0,1,2,2,10], 2) 
 
 def test_searchInRange():
-  assert 0 == searchInRange( [1,3,4,5,5],         3,  3) 
-  assert 4 == searchInRange( [-3,0,2,2,4,5],     -1,  5) 
+  # NO LONGER VALID! CHANGED WITH VERSION 2 of ASSIGNMENT
+  # assert 0 == searchInRange( [1,3,4,5,5],         3,  3) 
+  assert 0 == searchInRange( [1,3,4,5,5],         1,  2) 
+  # NO LONGER VALID! CHANGED WITH VERSION 2 of ASSIGNMENT
+  #assert 4 == searchInRange( [-3,0,2,2,4,5],     -1,  5) 
+  assert 5 == searchInRange( [-3,0,2,2,4,5],     -1,  5) 
   assert 2 == searchInRange( [-1,0,1,1,2,10,10],  2, 11) 
 
 # ==================================================
