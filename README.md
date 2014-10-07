@@ -6,6 +6,7 @@ Test cases and helpful scripts:
 * assignment-2           - peters python scripts for downloading+ checking assigment 3
 * assignment-3           - peters python scripts for downloading + checking assigment 3
 * assignment-3-with-make - brigittes makefile for downloading, checking and zipping. uses lots of UNIX stuff.
+* assignment-5           - brigittes makefile updated for assignment 5 by emil
 
 # Why test cases
 This repository is primarily for test cases for Principle of Urban Informatics homework assignments.
