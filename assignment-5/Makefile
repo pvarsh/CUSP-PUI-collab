@@ -28,6 +28,7 @@ zip:
 	zip $(NETID)_assignment_5.zip query1.sql query2.sql query3.sql query4.sql query5.sql query6.sql
 
 download:
+	wget -N http://vgc.poly.edu/projects/gx5003-fall2014/week5/lab/data/mta.sql
 	wget -N http://vgc.poly.edu/projects/gx5003-fall2014/week5/lab/data/assignment5.zip
 	unzip -j assignment5.zip
 	rm assignment5.zip
